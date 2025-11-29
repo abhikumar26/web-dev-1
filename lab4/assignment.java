@@ -13,7 +13,7 @@ const webDevQuiz = [
   },
   {
     question: "What is the sum of 100+100?",
-    answer: 198,
+    answer: 200,
   },
   {
     question: "What is the name of richest person in world ?",
@@ -35,5 +35,6 @@ function quiz() {
     }   
     alert(`Quiz Over! Your total score is: ${score} out of ${webDevQuiz.length}`);
 }
+
 
 quiz();
